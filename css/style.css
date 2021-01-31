@@ -1,0 +1,366 @@
+
+html{
+    overflow-x: hidden !important;
+}
+body{
+    overflow-x: hidden !important;
+}
+.banner_section{
+    position: relative;
+    background-color: #ffffff;
+}
+
+.navbar-brand img{}
+.navbar-nav {}
+.navbar-nav li {}
+.navbar-nav li a{
+    color: #574244 !important;
+    padding: 10px 20px !important;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.contactbtn {
+    background: #1cd8ba;
+    text-align: center;
+    border-radius: 20px 0;
+    background: linear-gradient( 
+   153deg
+ ,#1cd8ba 12%,#07acec);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 12px 32px;
+    transition: 0.4s;
+    display: inline-block;
+}
+.contactbtn:hover{}
+.navbar-nav li a:hover{}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none !important;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 0%) !important;
+    border-color: rgb(0 0 0 / 0%) !important;
+}
+
+.bannerdot{
+    position: absolute;
+    top: -40px;
+    left: 45%;
+    transform: translateX(-55%);
+    background: url(../images/bannerdot.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 100px;
+}
+.navdot{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translateX(-55%);
+    background: url(../images/navdot.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 110px;
+}
+.studiotop{position: absolute;top: 10%;right: -10%;background: url(../images/studio.png);background-position: center;background-size: contain;background-repeat: no-repeat;width: 500px;height: 175px;}
+.studiobottom{
+    position: absolute;
+    bottom: 0;
+    left: -10%;
+    background: url(../images/studio.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 175px;
+}
+
+
+.banner_section{}
+.banner_section h1{
+    color: #0F052D;
+    font-size: 70px;
+    font-family: "Yeseva One",cursive;
+    font-weight: 700;
+    line-height: 70px;
+}
+.banner_section p{
+    color: #7C7C7C;
+    margin: 28px 0;
+}
+.banner_section ul{
+    padding: 0;
+}
+.fish a{
+    background: #1cd8ba;
+    text-align: center;
+    border-radius: 20px 0;
+    background: linear-gradient(153deg,#1cd8ba 12%,#07acec);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 12px 32px;
+    transition: 0.4s;
+}
+.fish a:hover{}
+
+.banner_section .fish{
+    margin-bottom: 50px;
+}
+.fish img{}
+
+.about_section{
+    padding: 100px 0;
+}
+.about_section h1{
+    font-size: 36px;
+    color: #0F052D;
+    font-family: "Yeseva One",cursive;
+    font-weight: 700 !important;
+}
+.about_section p{
+    color: #7C7C7C;
+}
+.about_section .radious_box{
+    transition: 0.4s ease;
+    margin-top: 30px;
+    padding: 30px 20px;
+    background: #ffffff;
+    border-radius: 100px 0;
+}
+.radious_box img{
+}
+.radious_box h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #42285A;
+    margin: 10px 0;
+}
+.radious_box p{}
+.radious_box:hover{
+    box-shadow: 0px 0px 20px 0px rgb(104 78 251 / .2);
+}
+
+.project_section{}
+.project_section h1{
+    color: #0F052D;
+    font-family: "Yeseva One",cursive;
+    font-size: 36px;
+    font-weight: 700 !important;
+}
+.project_section p{
+    color: #7C7C7C;
+    margin-bottom: 28px;
+}
+.project_section .work{
+    padding: 0;
+}
+.work img{}
+.work a{
+    background: #1cd8ba;
+    text-align: center;
+    border-radius: 20px 0;
+    background: linear-gradient(153deg,#1cd8ba 12%,#07acec);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 12px 32px;
+    transition: 0.4s;
+}
+.work a:hover{}
+
+.Our_section{}
+.Our_section h1{
+    color: #0F052D;
+    font-family: "Yeseva One",cursive;
+    font-size: 36px;
+    font-weight: 700 !important;
+}
+.Our_section p{
+    color: #7C7C7C;
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+.Our_section .work{}
+
+.work .imoji_radius{}
+
+.reverse .imoji_content{
+    border-radius: 50px 0 !important;
+}
+.happy .imoji_content{
+    background: #07acec !important;
+    background: linear-gradient(153deg,#07acec,#1edcb5 65%) !important;
+}
+.work .imoji_content{
+    padding: 30px 10px;
+    box-shadow: 0px 0px 30px 0px hsl(192 72% 52% / .2);
+    border-radius: 0 50px 0;
+    background: #ffffff;
+    transition: 0.4s ease;
+}
+.work .imoji_content:hover{
+    background: #07acec !important;
+    background: linear-gradient(153deg,#07acec,#1edcb5 65%) !important;
+}
+.work .imoji{}
+.imoji img{
+    width: 50px;
+}
+.imoji_text{
+    padding-left: 16px;
+}
+.happy .imoji_text h1{
+    color: #fff;
+}
+.happy .imoji_text h4{
+    color: #fff;
+}
+.imoji_text h1{
+    color: #707070;
+    font-size: 32px;
+    font-family: inherit;
+}
+.imoji_text h4{
+    color: #707070;
+    font-size: 20px;
+}
+.team_section{
+    padding: 50px 0;
+}
+.team_section h1{
+    color: #0F052D;
+    font-family: "Yeseva One",cursive;
+    font-size: 36px;
+    font-weight: 700 !important;
+}
+.team_section .list{
+    box-shadow: 0px 0px 10px 1px rgb(59 211 193 / .2) !important;
+    border: 2px solid #40e6dc00;
+    padding: 30px 20px;
+    transition: 0.4s;
+}
+.team_section .list:hover{
+    border: 2px solid #40e6dc;
+}
+.list h2{
+    color: #494242;
+    font-weight: 700;
+    font-size: 40px;
+}
+.list h3{
+    color: #7C7C7C;
+    font-weight: 400;
+    font-size: 22px;
+}
+.list span{
+    display: inline-block;
+    background: #4BEFD9;
+    width: 150px;
+    height: 2px;
+    margin: 10px;
+}
+.list ul{
+    margin-top: 50px;
+    padding: 0;
+}
+.list ul a{
+    background: #1cd8ba;
+    text-align: center;
+    border-radius: 20px 0;
+    background: linear-gradient(153deg,#1cd8ba 12%,#07acec);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 12px 35px;
+    transition: 0.4s;
+    font-weight: 600;
+}
+.list ul a:hover{}
+.list li{
+    list-style: none;
+    color: #515151;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.list{}
+.team_section{
+    padding: 50px 0;
+}
+
+.joinBtn{}
+.joinBtn h1{
+    margin-bottom: 10px !important;
+}
+.joinBtn p{
+    color: #7C7C7C;
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+.adress_btn{
+
+    background-color: #fff;
+    padding: 6px;
+    box-shadow: 0px 0px 20px 0px hsl(192deg 100% 50% / 30%);
+}
+.adress_btn input{
+
+    width: 100%;
+    border: 0;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.adress_btn button{
+
+    width: 150px;
+    color: #fff;
+    background: #1cd8ba;
+    background: linear-gradient(153deg,#1cd8ba 12%,#07acec);
+    padding: 10px;
+    border: 0;
+    font-weight: 600;
+}
+.adress_btn button:hover{}
+
+footer{
+    padding: 50px 0;
+}
+footer .row{
+    text-align: start;
+}
+.logos{}
+.logos img{
+}
+.foterimg{
+    margin-top: 20px;
+}
+.foterimg ul{
+    margin: 0;
+}
+.foterimg ul li{
+    list-style: none;
+    padding: 5px;
+}
+.foterimg ul li a{}
+.listitem{}
+.listitem ul{
+    padding: 0;
+}
+.listitem ul li{
+    list-style: none;
+    color: #353535;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
